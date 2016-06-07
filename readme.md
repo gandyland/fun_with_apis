@@ -1,19 +1,15 @@
-**NOTE:** This weekend's homework is **OPTIONAL**! Feel free to spend the next two days taking it easy.
+# Fun with APIs
 
-## Fun with APIs
+Your prompt is an open-ended one: make something cool using a 3rd party API! There's no need to create a back-end for this assignment -- just stick to HTML, CSS and Javascript.
 
-Your homework prompt for this weekend is an open-ended one: make something cool using a 3rd party API! There's no need to create a backend for this assignment -- just stick to HTML, CSS and Javascript.
-
-If you need a refresher on AJAX, check out [Andy's lesson](https://github.com/ga-dc/pbj/tree/master/07-uxdi-collaboration/ajax#ajax---get-2550) from earlier this week.
-
-Not sure where to start? Here is a suggested workflow...
+## Not sure where to start? Here is a suggested workflow...
   1. **Set up your HTML and CSS.** Figure out what you want your app to look like.
   2. **Create your AJAX call.** Just make sure it's working -- don't worry about handling the response yet.
   3. **Extract information from your response.** How do you go about accessing it?
   4. **Handle API Response.** What are you going to do with the API response? How will you render it in your HTML/CSS?
   5. **AJAX error handling.** What will your program do when your API call doesn't work?
 
-API's you can use but are not limited to include...
+## APIs you may (but don't have to) use...
 
 * [Giphy](https://api.giphy.com/)
 * [OMDB (Open Movie Database)](http://www.omdbapi.com/)
@@ -24,10 +20,11 @@ API's you can use but are not limited to include...
 
 There's an API for pretty much everything. You can search for more at [Mashape](https://www.mashape.com/explore).
 
-Need an app idea? Feel free to give these prompts a try...
-* [Spotify.me](https://github.com/ga-dc/spotify-me)
+## Need an app idea?
+
+Feel free to give these prompts a try...
+
 * [Infinite Giphy](https://github.com/ga-dc/infinite-giphy)
-
-Like all your other homework assignments, please include a score for Comfort and Completeness. We would also like you to include a question(s) or highlight a particular portion of your application that you would like instructor feedback on.
-
-Have a great weekend!
+* [Slidey McShowington](https://github.com/ga-wdi-exercises/slidey-mcshowington)
+* [Yo Yo Da](https://github.com/ga-wdi-exercises/yo-yo-da)
+* [Movie Browser](http://ga-wdi-exercises.github.io/movie-browser/)
