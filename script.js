@@ -10,26 +10,28 @@ $(document).ready(function(){
       console.log(response);
       for(var i=0; i<response.length; i++){
         var artist = $("<li>" + response[i].name + "</li>");
-        artistList.append(artist);
+        beerList.append(beer);
       }
     }).fail(function(response){
-      console.log("sucks for you", response);
+      console.log("Fail", response);
     });
   });
 
   $("#post").on("click", function(){
-    var artistName = $("#artist-name").val();
-    var artistPhotoUrl = $("#artist-photo-url").val();
-    var artistNationality = $("#artist-nationality").val();
+    var beerName = $("#beer-Name").val();
+    var breweryName = $("#brewery-Name").val();
+    var typeOfHops = $("#type-of-hops").val();
+    var typeOfYeast = $("#type-of-yeast").val();
     $.ajax({
       url: url,
       dataType: "json",
       type: "POST",
       data: {
         artist: {
-          name: artistName,
-          photo_url: artistPhotoUrl,
-          nationality: artistNationality
+          name: beerName,
+          brewery: breweryName,
+          hops: typeOfHops,
+          yeast: typeOfYeast
         }
       }
     }).done(function(response){
@@ -38,17 +40,4 @@ $(document).ready(function(){
       console.log("FAIL", response);
     });
   });
-
-  $("#delete").on("click", function(){
-    $.ajax({
-      type: 'DELETE',
-      dataType: 'json',
-      url: "https://tunr-api.herokuapp.com/artists/"
-    }).done(function(response){
-      console.log("DELETED");
-      console.log(response);
-    }).fail(function(){
-      console.log("failed to delete");
-    })
-  })
 })
