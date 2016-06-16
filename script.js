@@ -21,7 +21,6 @@ $(document).ready(function(){
     var artistName = $("#artist-name").val();
     var artistPhotoUrl = $("#artist-photo-url").val();
     var artistNationality = $("#artist-nationality").val();
-
     $.ajax({
       url: url,
       dataType: "json",
