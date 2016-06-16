@@ -1,0 +1,24 @@
+#buttons div {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+form {
+  margin-bottom: 50px;
+}
+
+input {
+  height: 50px;
+  font-size: 26px;
+}
